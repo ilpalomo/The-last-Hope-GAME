@@ -53,7 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CorgiEngine/Demos/Corgi3D/Corgi3D.unity
     guid: 21235c11eb96a4cce9524e313642ab64
-  - enabled: 1
+  - enabled: 0
     path: Assets/CorgiEngine/Demos/Minimal/MinimalLevel.unity
     guid: b5dafbb7f5956d94ba41cd169cc39435
   - enabled: 1
@@ -120,6 +120,9 @@ EditorBuildSettings:
     path: Assets/CorgiEngine/Demos/Minimal/MinimalRooms2.unity
     guid: c982ea55a70c24044a9b4226f6446108
   - enabled: 1
+    path: Assets/AssetsLastHope/Escenas/Instrucciones.unity
+    guid: d96fae72657ae3a449bcfaa2329ae3be
+  - enabled: 1
     path: Assets/CorgiEngine/Demos/Minimal/MinimalCharacterSwap.unity
     guid: 71edfb2fd45021646941033d28e781fb
   - enabled: 1
@@ -128,6 +131,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CorgiEngine/Demos/Minimal/MinimalModelSwitch.unity
     guid: d7b557f6a71b64946a3fe442e825d5fb
+  - enabled: 1
+    path: Assets/AssetsLastHope/Escenas/Creditos.unity
+    guid: a160484b5fcdf16459fcb1b8b7eafee1
   - enabled: 1
     path: Assets/CorgiEngine/Demos/Minimal/MinimalStairs.unity
     guid: 9494d759434f80b4381b1da2a0fa14a0
@@ -224,4 +230,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/MMAdditiveLoadingScreenSimple.unity
     guid: 945e5b97212e8e74ebcd35bddde3970c
+  - enabled: 1
+    path: Assets/AssetsLastHope/Escenas/Menu.unity
+    guid: 5d755fb5006ad974a850001347d8e15e
+  - enabled: 1
+    path: Assets/AssetsLastHope/Escenas/Nivel1.unity
+    guid: 6f9dc7cc9f249614a83b57110ff78b20
   m_configObjects: {}
