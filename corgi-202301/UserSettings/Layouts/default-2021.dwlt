@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 88
+  controlID: 15
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 384
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 89
+  controlID: 16
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 90
+  controlID: 17
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,21 +318,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/AssetsLastHope/Escenas
+    - "Assets/AssetsLastHope/Prefabs/Men\xFA/UI"
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/AssetsLastHope/Escenas
+  - "Assets/AssetsLastHope/Prefabs/Men\xFA/UI"
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\santi\OneDrive\Escritorio\TheLastHope\The-last-Hope-GAME\corgi-202301
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b46f0000
-    m_LastClickedID: 28596
+    m_SelectedIDs: 787a0000
+    m_LastClickedID: 31352
     m_ExpandedIDs: 00000000a06f0000a26f0000a46f0000a66f0000a86f0000aa6f0000ac6f0000ae6f0000b06f0000b26f0000b46f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -491,9 +491,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 48700000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: def9ffffe2faffff
+      m_ExpandedIDs: dcd8ffff70dbffff06ddffff0ce0ffff86e1ffff8ce3ffff78f1ffff34f8ffffe2faffff766e00001c7a0000367a00004c7a000020800000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -509,7 +509,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -809,9 +809,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 430.49036, y: 197.98985, z: -2.4490933}
+    m_Target: {x: 428.87006, y: 176.05777, z: -1.5959976}
     speed: 2
-    m_Value: {x: 430.49036, y: 197.98985, z: -2.4490933}
+    m_Value: {x: 428.87006, y: 176.05777, z: -1.5959976}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -862,9 +862,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 219.1038
+    m_Target: 230.238
     speed: 2
-    m_Value: 219.1038
+    m_Value: 230.238
   m_Ortho:
     m_Target: 1
     speed: 2
