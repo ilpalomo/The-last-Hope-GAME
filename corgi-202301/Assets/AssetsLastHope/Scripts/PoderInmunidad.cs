@@ -7,7 +7,7 @@ using MoreMountains.Tools;
 public class PoderInmunidad : MonoBehaviour, MMEventListener<PickableItemEvent>
 {
  [SerializeField] 
-    private float timepo_inmunidad = 6;
+    private float timepo_inmunidad = 3;
     private GameObject _fadeObject;
     private Health salud_personaje;
 
