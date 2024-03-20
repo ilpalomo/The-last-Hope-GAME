@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ScrollArriba : MonoBehaviour
+public class ScrollArriba2 : MonoBehaviour
 {
     public float scrollSpeed = 2f;
     public Vector2 directionBounds = new Vector2(1, 1);
@@ -27,7 +27,7 @@ public class ScrollArriba : MonoBehaviour
         StartCoroutine(StartDelay());
     }
 
-    public Health getHealth() 
+    public Health getHealth()
     {
         player = LevelManager.Instance.Players[0].gameObject;
 
@@ -40,7 +40,7 @@ public class ScrollArriba : MonoBehaviour
 
         StartCoroutine(MoveLevelBounds());
     }
-    
+
     IEnumerator MoveLevelBounds()
     {
         salud_personaje = getHealth();
@@ -49,7 +49,7 @@ public class ScrollArriba : MonoBehaviour
         {
             if (salud_personaje.CurrentHealth <= 0f)
             {
-                SceneManager.LoadScene("Nivel1");
+                SceneManager.LoadScene("Nivel2");
                 break;
             }
             if (transform.position.y > 2)
